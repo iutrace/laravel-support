@@ -1,20 +1,20 @@
-# Rinvex Support
+# Iutrace Laravel Support
 
-**Rinvex common** support helpers, contracts, and traits required by various Rinvex packages. Validator functionality, and basic controller included out-of-the-box.
+**Laravel support** helpers, contracts, and traits. Validator functionality, and basic controller included out-of-the-box.
 
-[![Packagist](https://img.shields.io/packagist/v/rinvex/laravel-support.svg?label=Packagist&style=flat-square)](https://packagist.org/packages/rinvex/laravel-support)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/rinvex/laravel-support.svg?label=Scrutinizer&style=flat-square)](https://scrutinizer-ci.com/g/rinvex/laravel-support/)
-[![Travis](https://img.shields.io/travis/rinvex/laravel-support.svg?label=TravisCI&style=flat-square)](https://travis-ci.org/rinvex/laravel-support)
-[![StyleCI](https://styleci.io/repos/60968880/shield)](https://styleci.io/repos/60968880)
-[![License](https://img.shields.io/packagist/l/rinvex/laravel-support.svg?label=License&style=flat-square)](https://github.com/rinvex/laravel-support/blob/develop/LICENSE)
+[![Packagist](https://img.shields.io/packagist/v/iutrace/laravel-support.svg?label=Packagist&style=flat-square)](https://packagist.org/packages/iutrace/laravel-support)
+[![License](https://img.shields.io/packagist/l/iutrace/laravel-support.svg?label=License&style=flat-square)](https://github.com/iutrace/laravel-support/blob/main/LICENSE)
 
+## Fork Information
 
-> **Note:** this package is just a support package for other Rinvex packages, which may not be useful on it's own, but contains some complementary generic functionality and also may not respect SemVer and break backward compatibility.
+This package is a fork of the abandoned [rinvex/laravel-support](https://github.com/rinvex/laravel-support) package, updated for Laravel 12 and PHP 8.3+ compatibility.
+
+> **Note:** This package contains complementary generic functionality and may not respect SemVer during major Laravel version transitions.
 
 
 ## Installation
 
-Install via `composer require rinvex/laravel-support`
+Install via `composer require iutrace/laravel-support`
 
 
 ## Usage
@@ -47,11 +47,9 @@ Refer to the [Changelog](CHANGELOG.md) for a full history of the project.
 
 ## Support
 
-The following support channels are available at your fingertips:
+For support, please use:
 
-- [Chat on Slack](https://bit.ly/rinvex-slack)
-- [Help on Email](mailto:help@rinvex.com)
-- [Follow on Twitter](https://twitter.com/rinvex)
+- [GitHub Issues](https://github.com/iutrace/laravel-support/issues)
 
 
 ## Contributing & Protocols
@@ -69,16 +67,17 @@ Bug reports, feature requests, and pull requests are very welcome.
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within this project, please send an e-mail to [help@rinvex.com](help@rinvex.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this project, please create a GitHub issue. All security vulnerabilities will be promptly addressed.
 
 
-## About Rinvex
+## Credits
 
-Rinvex is a software solutions startup, specialized in integrated enterprise solutions for SMEs established in Alexandria, Egypt since June 2016. We believe that our drive The Value, The Reach, and The Impact is what differentiates us and unleash the endless possibilities of our philosophy through the power of software. We like to call it Innovation At The Speed Of Life. That’s how we do our share of advancing humanity.
+This package is a fork of the original [rinvex/laravel-support](https://github.com/rinvex/laravel-support) package by Rinvex LLC. We thank the original authors for their excellent work.
 
 
 ## License
 
 This software is released under [The MIT License (MIT)](LICENSE).
 
-(c) 2016-2022 Rinvex LLC, Some rights reserved.
+(c) 2024 iutrace, Some rights reserved.
+Original work (c) 2016-2022 Rinvex LLC, Some rights reserved.

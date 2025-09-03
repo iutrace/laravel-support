@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rinvex\Support\Traits;
+namespace Iutrace\Support\Traits;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;

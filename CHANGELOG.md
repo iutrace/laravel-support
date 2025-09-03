@@ -1,9 +1,22 @@
-# Rinvex Support Change Log
+# Iutrace Laravel Support Change Log
 
 All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 
+## [v8.0.0] - 2024-12-19
+- **BREAKING**: Forked from abandoned rinvex/laravel-support package
+- **BREAKING**: Changed namespace from `Rinvex\Support` to `Iutrace\Support`
+- **BREAKING**: Changed package name from `rinvex/laravel-support` to `iutrace/laravel-support`
+- **BREAKING**: Updated minimum PHP requirement to 8.3
+- **BREAKING**: Updated Laravel support to 11.x and 12.x
+- Updated all dependencies to latest compatible versions
+- Updated documentation and package information
+- Added migration guide in FORK_NOTICE.md
+
+---
+
+## Previous Releases (rinvex/laravel-support)
 
 ## [v7.3.2] - 2024-07-22
 - Upgrade vinkla/hashids to v12 (#85)
@@ -327,76 +340,76 @@ This project adheres to [Semantic Versioning](CONTRIBUTING.md).
 ## v0.0.1 - 2016-12-20
 - Tag first release
 
-[v7.3.2]: https://github.com/rinvex/laravel-support/compare/v7.3.1...v7.3.2
-[v7.3.1]: https://github.com/rinvex/laravel-support/compare/v7.3.0...v7.3.1
-[v7.3.0]: https://github.com/rinvex/laravel-support/compare/v7.2.6...v7.3.0
-[v7.2.6]: https://github.com/rinvex/laravel-support/compare/v7.2.5...v7.2.6
-[v7.2.5]: https://github.com/rinvex/laravel-support/compare/v7.2.4...v7.2.5
-[v7.2.4]: https://github.com/rinvex/laravel-support/compare/v7.2.3...v7.2.4
-[v7.2.3]: https://github.com/rinvex/laravel-support/compare/v7.2.2...v7.2.3
-[v7.2.2]: https://github.com/rinvex/laravel-support/compare/v7.2.1...v7.2.2
-[v7.2.1]: https://github.com/rinvex/laravel-support/compare/v7.2.0...v7.2.1
-[v7.2.0]: https://github.com/rinvex/laravel-support/compare/v7.1.0...v7.2.0
-[v7.1.0]: https://github.com/rinvex/laravel-support/compare/v7.0.1...v7.1.0
-[v7.0.1]: https://github.com/rinvex/laravel-support/compare/v7.0.0...v7.0.1
-[v7.0.0]: https://github.com/rinvex/laravel-support/compare/v6.1.5...v7.0.0
-[v6.1.5]: https://github.com/rinvex/laravel-support/compare/v6.1.4...v6.1.5
-[v6.1.4]: https://github.com/rinvex/laravel-support/compare/v6.1.3...v6.1.4
-[v6.1.3]: https://github.com/rinvex/laravel-support/compare/v6.1.2...v6.1.3
-[v6.1.2]: https://github.com/rinvex/laravel-support/compare/v6.1.1...v6.1.2
-[v6.1.1]: https://github.com/rinvex/laravel-support/compare/v6.1.0...v6.1.1
-[v6.1.0]: https://github.com/rinvex/laravel-support/compare/v6.0.3...v6.1.0
-[v6.0.3]: https://github.com/rinvex/laravel-support/compare/v6.0.2...v6.0.3
-[v6.0.2]: https://github.com/rinvex/laravel-support/compare/v6.0.1...v6.0.2
-[v6.0.1]: https://github.com/rinvex/laravel-support/compare/v6.0.0...v6.0.1
-[v6.0.0]: https://github.com/rinvex/laravel-support/compare/v5.0.19...v6.0.0
-[v5.0.19]: https://github.com/rinvex/laravel-support/compare/v5.0.18...v5.0.19
-[v5.0.18]: https://github.com/rinvex/laravel-support/compare/v5.0.17...v5.0.18
-[v5.0.17]: https://github.com/rinvex/laravel-support/compare/v5.0.16...v5.0.17
-[v5.0.16]: https://github.com/rinvex/laravel-support/compare/v5.0.15...v5.0.16
-[v5.0.15]: https://github.com/rinvex/laravel-support/compare/v5.0.14...v5.0.15
-[v5.0.14]: https://github.com/rinvex/laravel-support/compare/v5.0.13...v5.0.14
-[v5.0.13]: https://github.com/rinvex/laravel-support/compare/v5.0.12...v5.0.13
-[v5.0.12]: https://github.com/rinvex/laravel-support/compare/v5.0.11...v5.0.12
-[v5.0.11]: https://github.com/rinvex/laravel-support/compare/v5.0.10...v5.0.11
-[v5.0.10]: https://github.com/rinvex/laravel-support/compare/v5.0.9...v5.0.10
-[v5.0.9]: https://github.com/rinvex/laravel-support/compare/v5.0.8...v5.0.9
-[v5.0.8]: https://github.com/rinvex/laravel-support/compare/v5.0.7...v5.0.8
-[v5.0.7]: https://github.com/rinvex/laravel-support/compare/v5.0.6...v5.0.7
-[v5.0.6]: https://github.com/rinvex/laravel-support/compare/v5.0.5...v5.0.6
-[v5.0.5]: https://github.com/rinvex/laravel-support/compare/v5.0.4...v5.0.5
-[v5.0.4]: https://github.com/rinvex/laravel-support/compare/v5.0.3...v5.0.4
-[v5.0.3]: https://github.com/rinvex/laravel-support/compare/v5.0.2...v5.0.3
-[v5.0.2]: https://github.com/rinvex/laravel-support/compare/v5.0.1...v5.0.2
-[v5.0.1]: https://github.com/rinvex/laravel-support/compare/v5.0.0...v5.0.1
-[v5.0.0]: https://github.com/rinvex/laravel-support/compare/v4.3.1...v5.0.0
-[v4.3.1]: https://github.com/rinvex/laravel-support/compare/v4.3.0...v4.3.1
-[v4.3.0]: https://github.com/rinvex/laravel-support/compare/v4.2.1...v4.3.0
-[v4.2.1]: https://github.com/rinvex/laravel-support/compare/v4.2.0...v4.2.1
-[v4.2.0]: https://github.com/rinvex/laravel-support/compare/v4.1.1...v4.2.0
-[v4.1.1]: https://github.com/rinvex/laravel-support/compare/v4.1.0...v4.1.1
-[v4.1.0]: https://github.com/rinvex/laravel-support/compare/v4.0.7...v4.1.0
-[v4.0.7]: https://github.com/rinvex/laravel-support/compare/v4.0.6...v4.0.7
-[v4.0.6]: https://github.com/rinvex/laravel-support/compare/v4.0.5...v4.0.6
-[v4.0.5]: https://github.com/rinvex/laravel-support/compare/v4.0.4...v4.0.5
-[v4.0.4]: https://github.com/rinvex/laravel-support/compare/v4.0.3...v4.0.4
-[v4.0.3]: https://github.com/rinvex/laravel-support/compare/v4.0.2...v4.0.3
-[v4.0.2]: https://github.com/rinvex/laravel-support/compare/v4.0.1...v4.0.2
-[v4.0.1]: https://github.com/rinvex/laravel-support/compare/v4.0.0...v4.0.1
-[v4.0.0]: https://github.com/rinvex/laravel-support/compare/v3.0.4...v4.0.0
-[v3.0.4]: https://github.com/rinvex/laravel-support/compare/v3.0.3...v3.0.4
-[v3.0.3]: https://github.com/rinvex/laravel-support/compare/v3.0.2...v3.0.3
-[v3.0.2]: https://github.com/rinvex/laravel-support/compare/v3.0.1...v3.0.2
-[v3.0.1]: https://github.com/rinvex/laravel-support/compare/v3.0.0...v3.0.1
-[v3.0.0]: https://github.com/rinvex/laravel-support/compare/v2.1.1...v3.0.0
-[v2.1.1]: https://github.com/rinvex/laravel-support/compare/v2.1.0...v2.1.1
-[v2.1.0]: https://github.com/rinvex/laravel-support/compare/v2.0.0...v2.1.0
-[v2.0.0]: https://github.com/rinvex/laravel-support/compare/v1.0.3...v2.0.0
-[v1.0.3]: https://github.com/rinvex/laravel-support/compare/v1.0.2...v1.0.3
-[v1.0.2]: https://github.com/rinvex/laravel-support/compare/v1.0.1...v1.0.2
-[v1.0.1]: https://github.com/rinvex/laravel-support/compare/v1.0.0...v1.0.1
-[v1.0.0]: https://github.com/rinvex/laravel-support/compare/v0.0.5...v1.0.0
-[v0.0.5]: https://github.com/rinvex/laravel-support/compare/v0.0.4...v0.0.5
-[v0.0.4]: https://github.com/rinvex/laravel-support/compare/v0.0.3...v0.0.4
-[v0.0.3]: https://github.com/rinvex/laravel-support/compare/v0.0.2...v0.0.3
-[v0.0.2]: https://github.com/rinvex/laravel-support/compare/v0.0.1...v0.0.2
+[v7.3.2]: https://github.com/iutrace/laravel-support/compare/v7.3.1...v7.3.2
+[v7.3.1]: https://github.com/iutrace/laravel-support/compare/v7.3.0...v7.3.1
+[v7.3.0]: https://github.com/iutrace/laravel-support/compare/v7.2.6...v7.3.0
+[v7.2.6]: https://github.com/iutrace/laravel-support/compare/v7.2.5...v7.2.6
+[v7.2.5]: https://github.com/iutrace/laravel-support/compare/v7.2.4...v7.2.5
+[v7.2.4]: https://github.com/iutrace/laravel-support/compare/v7.2.3...v7.2.4
+[v7.2.3]: https://github.com/iutrace/laravel-support/compare/v7.2.2...v7.2.3
+[v7.2.2]: https://github.com/iutrace/laravel-support/compare/v7.2.1...v7.2.2
+[v7.2.1]: https://github.com/iutrace/laravel-support/compare/v7.2.0...v7.2.1
+[v7.2.0]: https://github.com/iutrace/laravel-support/compare/v7.1.0...v7.2.0
+[v7.1.0]: https://github.com/iutrace/laravel-support/compare/v7.0.1...v7.1.0
+[v7.0.1]: https://github.com/iutrace/laravel-support/compare/v7.0.0...v7.0.1
+[v7.0.0]: https://github.com/iutrace/laravel-support/compare/v6.1.5...v7.0.0
+[v6.1.5]: https://github.com/iutrace/laravel-support/compare/v6.1.4...v6.1.5
+[v6.1.4]: https://github.com/iutrace/laravel-support/compare/v6.1.3...v6.1.4
+[v6.1.3]: https://github.com/iutrace/laravel-support/compare/v6.1.2...v6.1.3
+[v6.1.2]: https://github.com/iutrace/laravel-support/compare/v6.1.1...v6.1.2
+[v6.1.1]: https://github.com/iutrace/laravel-support/compare/v6.1.0...v6.1.1
+[v6.1.0]: https://github.com/iutrace/laravel-support/compare/v6.0.3...v6.1.0
+[v6.0.3]: https://github.com/iutrace/laravel-support/compare/v6.0.2...v6.0.3
+[v6.0.2]: https://github.com/iutrace/laravel-support/compare/v6.0.1...v6.0.2
+[v6.0.1]: https://github.com/iutrace/laravel-support/compare/v6.0.0...v6.0.1
+[v6.0.0]: https://github.com/iutrace/laravel-support/compare/v5.0.19...v6.0.0
+[v5.0.19]: https://github.com/iutrace/laravel-support/compare/v5.0.18...v5.0.19
+[v5.0.18]: https://github.com/iutrace/laravel-support/compare/v5.0.17...v5.0.18
+[v5.0.17]: https://github.com/iutrace/laravel-support/compare/v5.0.16...v5.0.17
+[v5.0.16]: https://github.com/iutrace/laravel-support/compare/v5.0.15...v5.0.16
+[v5.0.15]: https://github.com/iutrace/laravel-support/compare/v5.0.14...v5.0.15
+[v5.0.14]: https://github.com/iutrace/laravel-support/compare/v5.0.13...v5.0.14
+[v5.0.13]: https://github.com/iutrace/laravel-support/compare/v5.0.12...v5.0.13
+[v5.0.12]: https://github.com/iutrace/laravel-support/compare/v5.0.11...v5.0.12
+[v5.0.11]: https://github.com/iutrace/laravel-support/compare/v5.0.10...v5.0.11
+[v5.0.10]: https://github.com/iutrace/laravel-support/compare/v5.0.9...v5.0.10
+[v5.0.9]: https://github.com/iutrace/laravel-support/compare/v5.0.8...v5.0.9
+[v5.0.8]: https://github.com/iutrace/laravel-support/compare/v5.0.7...v5.0.8
+[v5.0.7]: https://github.com/iutrace/laravel-support/compare/v5.0.6...v5.0.7
+[v5.0.6]: https://github.com/iutrace/laravel-support/compare/v5.0.5...v5.0.6
+[v5.0.5]: https://github.com/iutrace/laravel-support/compare/v5.0.4...v5.0.5
+[v5.0.4]: https://github.com/iutrace/laravel-support/compare/v5.0.3...v5.0.4
+[v5.0.3]: https://github.com/iutrace/laravel-support/compare/v5.0.2...v5.0.3
+[v5.0.2]: https://github.com/iutrace/laravel-support/compare/v5.0.1...v5.0.2
+[v5.0.1]: https://github.com/iutrace/laravel-support/compare/v5.0.0...v5.0.1
+[v5.0.0]: https://github.com/iutrace/laravel-support/compare/v4.3.1...v5.0.0
+[v4.3.1]: https://github.com/iutrace/laravel-support/compare/v4.3.0...v4.3.1
+[v4.3.0]: https://github.com/iutrace/laravel-support/compare/v4.2.1...v4.3.0
+[v4.2.1]: https://github.com/iutrace/laravel-support/compare/v4.2.0...v4.2.1
+[v4.2.0]: https://github.com/iutrace/laravel-support/compare/v4.1.1...v4.2.0
+[v4.1.1]: https://github.com/iutrace/laravel-support/compare/v4.1.0...v4.1.1
+[v4.1.0]: https://github.com/iutrace/laravel-support/compare/v4.0.7...v4.1.0
+[v4.0.7]: https://github.com/iutrace/laravel-support/compare/v4.0.6...v4.0.7
+[v4.0.6]: https://github.com/iutrace/laravel-support/compare/v4.0.5...v4.0.6
+[v4.0.5]: https://github.com/iutrace/laravel-support/compare/v4.0.4...v4.0.5
+[v4.0.4]: https://github.com/iutrace/laravel-support/compare/v4.0.3...v4.0.4
+[v4.0.3]: https://github.com/iutrace/laravel-support/compare/v4.0.2...v4.0.3
+[v4.0.2]: https://github.com/iutrace/laravel-support/compare/v4.0.1...v4.0.2
+[v4.0.1]: https://github.com/iutrace/laravel-support/compare/v4.0.0...v4.0.1
+[v4.0.0]: https://github.com/iutrace/laravel-support/compare/v3.0.4...v4.0.0
+[v3.0.4]: https://github.com/iutrace/laravel-support/compare/v3.0.3...v3.0.4
+[v3.0.3]: https://github.com/iutrace/laravel-support/compare/v3.0.2...v3.0.3
+[v3.0.2]: https://github.com/iutrace/laravel-support/compare/v3.0.1...v3.0.2
+[v3.0.1]: https://github.com/iutrace/laravel-support/compare/v3.0.0...v3.0.1
+[v3.0.0]: https://github.com/iutrace/laravel-support/compare/v2.1.1...v3.0.0
+[v2.1.1]: https://github.com/iutrace/laravel-support/compare/v2.1.0...v2.1.1
+[v2.1.0]: https://github.com/iutrace/laravel-support/compare/v2.0.0...v2.1.0
+[v2.0.0]: https://github.com/iutrace/laravel-support/compare/v1.0.3...v2.0.0
+[v1.0.3]: https://github.com/iutrace/laravel-support/compare/v1.0.2...v1.0.3
+[v1.0.2]: https://github.com/iutrace/laravel-support/compare/v1.0.1...v1.0.2
+[v1.0.1]: https://github.com/iutrace/laravel-support/compare/v1.0.0...v1.0.1
+[v1.0.0]: https://github.com/iutrace/laravel-support/compare/v0.0.5...v1.0.0
+[v0.0.5]: https://github.com/iutrace/laravel-support/compare/v0.0.4...v0.0.5
+[v0.0.4]: https://github.com/iutrace/laravel-support/compare/v0.0.3...v0.0.4
+[v0.0.3]: https://github.com/iutrace/laravel-support/compare/v0.0.2...v0.0.3
+[v0.0.2]: https://github.com/iutrace/laravel-support/compare/v0.0.1...v0.0.2

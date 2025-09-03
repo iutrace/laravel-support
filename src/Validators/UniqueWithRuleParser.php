@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rinvex\Support\Validators;
+namespace Iutrace\Support\Validators;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
